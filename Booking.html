@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link
+	href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+	rel="stylesheet"
+  />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+
+	<img class="background" src="./Image/background.jpg" width="2000px">
+	<header class="home" id="header">
+        <img class="logo" src="../Image/DaLatTravel.png" alt="Logo" />
+        <nav class="tac_vu">
+            <ul class="nav_links">
+                <li><a href="Index.html">Trang chủ</a></li>
+                <li>
+                    <a href="#"><b class="gioi-thieu"></b>Giới thiệu</a>
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="#">Về chúng tôi</a></li>
+                            <li><a href="#">Về Tuor</a></li>
+                            <li><a href="#">Feedback khách hàng</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="#"><b class="dia-diem"></b>Địa điểm</a>
+                    <div class="sub-menu-2">
+                        <ul>
+                            <li><a href="An-Uong.html">Ăn uống</a></li>
+                            <li><a href="ThamQuan.html">Tham quan</a></li>
+                            <li><a href="#">Homestay</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="Lien-He.html">Liên hệ</a></li>
+                <li><a href="#">Hỗ trợ</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="Booking.html"><button>Booking</button></a>
+        <div class="login">
+            <i class="ri-account-circle-fill">
+                <a class="login-text" href="DangNhap.html">Đăng nhập</a>
+            </i>
+        </div>
+    </header>
+    
+    <script src="./js/index.js"></script>
+
+
+	<div id="booking" class="section">
+		<div class="section-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7 col-md-push-5">
+						<div class="booking-cta">
+							<h1>DaLat Travel</h1>
+							<p>Booking. Đặt lịch bắt đầu du lịch Đà Lạt ngay bây giờ <br>
+								<hr width="70%" align="left">
+								<h2>Thông tin các gói</h2> <br>
+								<div class="goi">
+									<div class="pack">
+									<p class="title">ELITE (Cơ bản) </p>
+										Elite 1: Cơ bản 1<br>
+										Elite 2: Cơ bản 2<br>
+									</div>
+									<div class="pack">
+									<p class="title">VIP (Cao cấp) </p>
+										VIP 1: Cao cấp 1<br>
+										VIP 2: Cao cấp 2<br>
+									</div>
+									<div class="pack">
+									<p class="title">COUPLE (Cặp đôi) </p>
+										COUPLE 1: Cặp đôi 1<br>
+										COUPLE 2: Cặp đôi 2<br>
+									</div>
+								</div>
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-md-pull-7">
+						<div class="booking-form">
+							<form>
+								<div class="form-group">
+									<span class="form-label">Họ và tên</span>
+									<input class="form-control" type="text" placeholder="Nhập họ tên">
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="form-group">
+											<span class="form-label">Ngày bắt đầu</span>
+											<input class="form-control" type="date" required>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="form-group">
+											<span class="form-label">Ngày kết thúc</span>
+											<input class="form-control" type="date" required>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-4">
+										<div class="form-group">
+											<span class="form-label">Chọn gói</span>
+											<select class="form-control">
+												<option>Elite 1</option>
+												<option>Elite 2</option>
+												<option>VIP 1</option>
+												<option>VIP 2</option>
+												<option>Couple 1</option>
+												<option>Couple 2</option>
+											</select>
+											<span class="select-arrow"></span>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="form-group">
+											<span class="form-label">Người lớn</span>
+											<select class="form-control">
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+												<option>6</option>
+											</select>
+											<span class="select-arrow"></span>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="form-group">
+											<span class="form-label">Trẻ em</span>
+											<select class="form-control">
+												<option>0</option>
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+												<option>6</option>
+											</select>
+											<span class="select-arrow"></span>
+										</div>
+									</div>
+								</div>
+								<div class="form-btn">
+									<button class="submit-btn">Đặt lịch</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
